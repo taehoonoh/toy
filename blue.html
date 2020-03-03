@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blue</title>
+    <link rel="stylesheet" href="blue.css">
+</head>
+<body>
+    
+    <div class="all">
+        <div class="allheader">
+        <div class="header">
+    <span><img src="img/PPPPPPP.png" alt="">KT LTE</span>
+    <span>03:00</span>
+    <span>27% <img src="img/121212.png" alt=""></span>
+    </div>
+    <h1><img src="img/1111.png" alt=""></h1>
+    <p id="number">010-3481-1005</p>
+   
+    <hr>
+    <div class="sms">
+    <p>문자메시지</p>
+    <p>11월15일 (토) 02:00</p>
+</div>
+</div>
+    <div>
+    </div>
+    <p class ="m1">전화 좀 받아 ...</p>
+    <p class ="y1">지금은 전화를 받을 수 없습니다.</p>
+    <p class="haha">2월15일 (토) 03:00</p>
+    <br>
+    <p id="p1">자니..?</p>
+    <p id="p2"></p>
+    <a href=""><img src="i1.png" alt=""></a>
+    <a href=""><img src="i2.png" alt=""></a>
+    <input type="text" placeholder="메세지를 입력하세요.(Enter)" value="" id="tt">
+    <input type="submit" value="전송" id="send">
+    <div class="key">
+    <img src="img/test.png" alt="" id="i2">
+    <p>
+    <button value="ㅂ">ㅂ</button>
+    <button value="ㅈ">ㅈ</button>
+    <button value="ㄷ">ㄷ</button>
+    <button value="ㄱ">ㄱ</button>
+    <button value="ㅅ">ㅅ</button>
+    <button value="ㅛ">ㅛ</button>
+    <button value="ㅕ">ㅕ</button>
+    <button value="ㅑ">ㅑ</button>
+    <button value="ㅐ">ㅐ</button>
+    <button value="ㅔ">ㅔ</button>
+    </p>
+    <p>
+        <button value="ㅁ">ㅁ</button>
+        <button value="ㄴ">ㄴ</button>
+        <button value="ㅇ">ㅇ</button>
+        <button value="ㄹ">ㄹ</button>
+        <button value="ㅎ">ㅎ</button>
+        <button value="ㅗ">ㅗ</button>
+        <button value="ㅓ">ㅓ</button>
+        <button value="ㅏ">ㅏ</button>
+        <button value="ㅣ">ㅣ</button>
+    </p>
+    <p>
+        <button value="♥">♥</button>
+        <button value="ㅋ">ㅋ</button>
+        <button value="ㅌ">ㅌ</button>
+        <button value="ㅊ">ㅊ</button>
+        <button value="ㅍ">ㅍ</button>
+        <button value="ㅠ">ㅠ</button>
+        <button value="ㅜ">ㅜ</button>
+        <button value="ㅡ">ㅡ</button>
+        <button>◀</button>
+    </p>
+    <p>
+        <button value="">123</button>
+        <button value="">ㅇ</button>
+        <button value="">m</button>
+        <button class="kkk" value="　">간격</button>
+        <button class="kkkk" value="">☜</button>
+    </p>
+</div>
+</div>
+<small>※실제로 전송되지 않습니다.</small>
+<script>
+
+var p = prompt('상대방 이름을 입력하세요')
+var you = document.getElementById('number')
+var bt = document.querySelectorAll('button')
+var tt = document.getElementById('tt');
+var send = document.getElementById('send');
+var pp = document.getElementById('p1');
+
+
+if(p!==""){
+    you.textContent = p
+} 
+
+
+for(var i =0; i < bt.length; i++){
+    bt[i].onclick = function() { 
+        
+        tt.value += this.value;
+}
+}
+
+
+    send.onclick = function(){
+        // confirm('정말로 전송하시겠습니까?')
+        p2.innerHTML += "<mark>"+tt.value+"</mark>";
+
+        tt.value=" "
+}
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------- */
+
+
+
+
+
+.allheader{
+    background: #fbfbfb;
+    text-align: center;
+}
+.all{
+    border: 1px solid black;
+    width: 400px;
+}
+
+.header{display: flex;
+justify-content: space-between;
+padding-bottom: 30px;}
+
+span:nth-of-type(1) img{
+    width:20%;
+}
+span:nth-of-type(3) img{width:30%;}
+
+
+
+img{width: 5%;}
+
+h1 img{width:10%}
+.k{
+    width: 400px;
+}
+
+input:nth-of-type(1){
+    
+    all: unset;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 290px;
+}
+
+.key{background: #d1d4d9;
+text-align: center;
+padding-top: 5px;}
+
+.kkk{width: 100px}
+
+.kkkk{width:70px;}
+
+button{
+    height: 40px;
+}
+
+
+
+.y1{border: 1px solid white;
+background: lightgray;
+border-radius: 50px;
+font-size: 18px;
+width:50%}
+
+.m1{border: 1px solid white;
+    background: #34c759;
+    text-align: left;
+    border-radius: 50px;
+    font-size: 18px;
+    width:150px;
+    margin-left: 230px;
+    height: 22px;
+}
+
+.haha{margin-left: 130px;
+margin-top: 10px;}
+#p1{ 
+    text-align: left;
+    background: #34c759;
+    border-radius: 50px;
+        font-size: 18px;
+        width:150px;
+        margin-left: 230px;
+        margin-bottom: 4px;
+        height: 22px;
+
+}
+
+mark{
+    all:unset;
+    display: inline-block;
+text-align: left;
+background: #34c759;
+border-radius: 50px;
+    font-size: 18px;
+    width:150px;
+    margin-left: 230px;
+    margin-bottom: 4px;
+}
+
+button{
+    all:unset;
+    border-radius: 5px;
+    border: 1px solid white;
+    width:30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+#i2{width: 100%;}

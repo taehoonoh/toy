@@ -71,6 +71,7 @@ table {
 .all{
     border: 1px solid black;
     width: 400px;
+    margin:0 auto;
 }
 
 .header{display: flex;
@@ -81,7 +82,6 @@ span:nth-of-type(1) img{
     width:20%;
 }
 span:nth-of-type(3) img{width:30%;}
-
 
 
 img{width: 5%;}
@@ -120,26 +120,35 @@ font-size: 18px;
 width:50%}
 
 .m1{border: 1px solid white;
-    background: #34c759;
+    background: #219fff;
     text-align: left;
     border-radius: 50px;
     font-size: 18px;
     width:150px;
     margin-left: 230px;
     height: 22px;
+    opacity: .8;
 }
 
 .haha{margin-left: 130px;
-margin-top: 10px;}
+margin-top: 10px;
+font-size: 14px;}
+
+.haha1{
+    font-size: 14px;
+    
+}
+.sms{margin: 10px 0;}
 #p1{ 
     text-align: left;
-    background: #34c759;
+    background: #219fff;
     border-radius: 50px;
         font-size: 18px;
         width:150px;
         margin-left: 230px;
         margin-bottom: 4px;
         height: 22px;
+        opacity: .8;
 
 }
 
@@ -147,12 +156,13 @@ mark{
     all:unset;
     display: inline-block;
 text-align: left;
-background: #34c759;
+background: #219fff;
 border-radius: 50px;
     font-size: 18px;
     width:150px;
     margin-left: 230px;
     margin-bottom: 4px;
+    opacity: .8;
 }
 
 button{
@@ -163,6 +173,13 @@ button{
     height: 30px;
     margin-bottom: 10px;
     background: white;
+ 
 }
 
+
+
 #i2{width: 100%;}
+
+#back{width:50px;
+background: yellow;
+margin-left: 68%;}

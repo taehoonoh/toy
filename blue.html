@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blue</title>
     <link rel="stylesheet" href="blue.css">
+   
+    
 </head>
 <body>
-    
+    <input type="button" value="라이트" id="back">
+    <div class="color"> 
     <div class="all">
         <div class="allheader">
         <div class="header">
@@ -16,21 +19,21 @@
     <span>27% <img src="img/121212.png" alt=""></span>
     </div>
     <h1><img src="img/1111.png" alt=""></h1>
-    <p id="number">010-3481-1005</p>
-   
+    <p id="number">010-2020-0303</p>
+    
     <hr>
     <div class="sms">
-    <p>문자메시지</p>
-    <p>11월15일 (토) 02:00</p>
+    <p class="haha1">문자메시지</p>
+    <p class="haha1">11월15일 (금) 18:00</p>
 </div>
 </div>
     <div>
     </div>
-    <p class ="m1">전화 좀 받아 ...</p>
+    <p class ="m1">뭐해...?</p>
     <p class ="y1">지금은 전화를 받을 수 없습니다.</p>
     <p class="haha">2월15일 (토) 03:00</p>
     <br>
-    <p id="p1">자니..?</p>
+    <p id="p1">자...?</p>
     <p id="p2"></p>
     <a href=""><img src="img/i1.png" alt=""></a>
     <a href=""><img src="img/i2.png" alt=""></a>
@@ -62,7 +65,7 @@
         <button value="ㅣ">ㅣ</button>
     </p>
     <p>
-        <button value="♥">♥</button>
+        <button value="♥"><i class="fas fa-heart"></i></button>
         <button value="ㅋ">ㅋ</button>
         <button value="ㅌ">ㅌ</button>
         <button value="ㅊ">ㅊ</button>
@@ -70,50 +73,21 @@
         <button value="ㅠ">ㅠ</button>
         <button value="ㅜ">ㅜ</button>
         <button value="ㅡ">ㅡ</button>
-        <button>◀</button>
+        <button><i class="fas fa-backspace"></i></button>
     </p>
     <p>
         <button value="">123</button>
-        <button value="">ㅇ</button>
-        <button value="">m</button>
+        <button value=""><i class="fas fa-globe"></i></button>
+        <button value=""><i class="fas fa-microphone"></i></button>
         <button class="kkk" value="　">간격</button>
-        <button class="kkkk" value="">☜</button>
+        <button class="kkkk" value=""><i class="fas fa-redo"></i></button>
     </p>
 </div>
 </div>
-<small>※실제로 전송되지 않습니다.</small>
-<script>
-
-var p = prompt('상대방 이름을 입력하세요')
-var you = document.getElementById('number')
-var bt = document.querySelectorAll('button')
-var tt = document.getElementById('tt');
-var send = document.getElementById('send');
-var pp = document.getElementById('p1');
+</div>
 
 
-if(p!==""){
-    you.textContent = p
-} 
-
-
-for(var i =0; i < bt.length; i++){
-    bt[i].onclick = function() { 
-        
-        tt.value += this.value;
-}
-}
-
-
-    send.onclick = function(){
-        // confirm('정말로 전송하시겠습니까?')
-        p2.innerHTML += "<mark>"+tt.value+"</mark>";
-
-        tt.value=" "
-}
-
-
-
-</script>
+<script src="blue.js"></script>
+<script src="https://kit.fontawesome.com/e8bf3ba7f5.js" crossorigin="anonymous"></script>
 </body>
 </html>

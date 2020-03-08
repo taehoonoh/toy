@@ -46,7 +46,7 @@ for(var i =0; i < bt.length; i++){
 
 
     send.onclick = function(){
-        // confirm('정말로 전송하시겠습니까?')
+       
         p2.innerHTML += "<mark>"+tt.value+"</mark>";
 
         tt.value=" "

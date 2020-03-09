@@ -99,7 +99,7 @@ input:nth-of-type(1){
     width: 290px;
 }
 
-.key{background: #d1d4d9;
+.key{background: darkgray;
 text-align: center;
 padding-top: 5px;}
 
@@ -119,7 +119,7 @@ border-radius: 50px;
 font-size: 18px;
 width:50%}
 
-.m1{border: 1px solid white;
+.m1{
     background: #219fff;
     text-align: left;
     border-radius: 50px;
@@ -127,7 +127,7 @@ width:50%}
     width:150px;
     margin-left: 230px;
     height: 22px;
-    opacity: .8;
+
 }
 
 .haha{margin-left: 130px;
@@ -148,7 +148,7 @@ font-size: 14px;}
         margin-left: 230px;
         margin-bottom: 4px;
         height: 22px;
-        opacity: .8;
+   
 
 }
 
@@ -162,7 +162,7 @@ border-radius: 50px;
     width:150px;
     margin-left: 230px;
     margin-bottom: 4px;
-    opacity: .8;
+
 }
 
 button{

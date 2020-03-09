@@ -9,24 +9,36 @@ var send = document.getElementById('send');
 var pp = document.getElementById('p1');
 var back = document.getElementById('back')
 var all = document.querySelector('.color')
-
+var lineall = document.querySelector('.all')
+var allheader = all.querySelector('.allheader')
+var keybg = all.querySelector('.key')
 var button = document.getElementsByTagName('button')
 
 
 
 back.addEventListener('click',function() {
     if(back.value === '라이트'){
-        all.style.backgroundColor = 'black';
-        all.style.color = 'white';
-        //button.slice[0,1].style.backgroundColor = 'black';
+        all.style.backgroundColor = 'white';
+        all.style.color = 'black';
+        allheader.style.backgroundColor = 'white';
+        lineall.style.borderColor='black';
+        keybg.style.backgroundColor = 'darkgray';
         this.value = '다크';
+        for(var i =0; i<button.length;i++){
+            button[i].style.backgroundColor = 'white';
+        }
+       
         
        
-    }else{all.style.backgroundColor = 'white';
-        all.style.color = 'black';
-        //button[0][20].style.backgroundColor = 'white';
+    }else{ all.style.backgroundColor = 'black';
+    all.style.color = 'white';
+    allheader.style.backgroundColor = 'black';
+    lineall.style.borderColor='white';
+    keybg.style.backgroundColor = 'black';
         this.value = '라이트';
-
+        for(var i = 0; i<button.length;i++){
+            button[i].style.backgroundColor = 'gray';
+        }
     }}
  );
 
